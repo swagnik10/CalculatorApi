@@ -1,0 +1,30 @@
+# .gitignore
+
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.vs
+.idea/
+.vscode/
+
+# Ignore Docker-related files
+#.dockerignore
+
+# Ignore appsettings files (if they contain sensitive data)
+appsettings*.json
+
+# Ignore compiled solution files
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore logs
+*.log
+
+# Ignore local development tools' files
+.vsconfig
+.idea/
+.vscode/
